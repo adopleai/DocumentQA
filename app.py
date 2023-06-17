@@ -11,4 +11,4 @@ with gr.Blocks() as demo:
 
 
 #demo.launch(server_name="0.0.0.0")
-demo.launch(share=True)
+demo.launch(share=True, subdomain="mycustomsubdomain")
